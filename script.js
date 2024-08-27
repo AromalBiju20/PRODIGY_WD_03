@@ -36,10 +36,10 @@ let winpattern = [
     const winFunction =(letter) => {
         disableButtons();
         if(letter === "X"){
-            msg.innerHTML = "&#x1F389:<br> 'X' Wins ";
+            msg.innerHTML = "&#x1F389<br> 'X' Wins ";
         }
         else{
-            msg.innerHTML =  "&#x1F389:<br> 'O' Wins ";
+            msg.innerHTML =  "&#x1F389<br> 'O' Wins ";
         }
     };
 
